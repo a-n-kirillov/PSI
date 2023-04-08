@@ -1,0 +1,1 @@
+docker run -it --rm --network-alias z13_1.1_c_client --network z13_network --name z13_1.1_c_client z13_1.1_c_client z13_1.1_c_server [obtained_server_port] [initial_message_size] [packets_to_send_count] [succesive_size_multiplier]

@@ -1,0 +1,1 @@
+docker run -it --rm --network-alias z13_1.2_c_client --network z13_network --name z13_1.2_c_client z13_1.2_c_client z13_1.2_c_server [obtained_server_port]
