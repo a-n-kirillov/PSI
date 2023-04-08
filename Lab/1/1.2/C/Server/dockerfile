@@ -1,0 +1,5 @@
+FROM gcc:4.9
+COPY . /Server
+WORKDIR /Server/
+RUN gcc -std=c99 -o udp_server udp_server.c
+ENTRYPOINT ["./udp_server"]

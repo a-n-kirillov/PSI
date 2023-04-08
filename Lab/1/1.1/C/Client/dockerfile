@@ -1,0 +1,5 @@
+FROM gcc:4.9
+COPY . /Client
+WORKDIR /Client/
+RUN gcc -std=c99 -o udp_client udp_client.c
+ENTRYPOINT ["./udp_client"]
